@@ -1,0 +1,595 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 428px;
+}
+
+header {
+    position: absolute;
+    width: 428px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(0, 0, 0, 0.8);
+   
+}
+
+.header-logo {
+    position: absolute;
+    width: 15.83px;
+    height: 19px;
+    left: 206px;
+    top: 14px;
+    background: url(logo.png);
+    
+}
+
+main {
+    position: absolute;
+    width: 428px;
+    height: 102px;
+    left: 0px;
+    top: 48px;    
+    background:  #F5F5F7;
+}
+.logo-unicef {
+    position: absolute;
+    width: 106px;
+    height: 28px;
+    left: 161px;
+    top: 15px;
+    
+    background: url(unicef.png);    
+}
+
+.main-ukraine {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    left: 106px;
+    top: 47px;
+    text-decoration: none;
+    color: #0066CC;
+    
+     
+}
+
+.wrapper {
+    position: absolute;
+    width: 428px;
+    height: 501px;
+    left: 0px;
+    top: 150px;
+    background:  #FBFBFD;
+}
+
+.wrapper-titile {
+    position: absolute;
+    width: 185px;
+    height: 43px;
+    left: 117px;
+    top: 24px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.05em;
+    
+    color: #1D1D1F;
+    
+
+}
+
+.wrapper-subtitle {
+    position: absolute;
+    width: 158px;
+    height: 23px;
+    left: 122px;
+    top: 79px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 274;
+    font-size: 19px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.025em;
+    
+    color: #000000;
+    
+
+    
+}
+
+.m2 {
+    position: absolute;
+    width: 28px;
+    height: 27px;
+    left: 280px;
+    top: 97px;
+    
+}
+
+.wrraper-link1 {
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 131px;
+    top: 126px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+   text-decoration: none;
+   letter-spacing: -0.055em;
+    
+    color: #0066CC;    
+}
+
+.wrapper-link2 {
+    position: absolute;
+    width: 99px;
+    height: 18px;
+    left: 228px;
+    top: 126px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.055em;
+    text-decoration: none;
+    
+    color: #0066CC;    
+}
+
+.wrapper-img {
+    position: absolute;
+    width: 298px;
+    height: 295px;
+    left: 65px;
+    top: 192px;
+    
+    background: url(mac.png);    
+}
+
+.mac-ipad {
+    position: absolute;
+    width: 428px;
+    height: 556px;
+    left: 0px;
+    top: 664px;
+    
+    background: #F5F5F7;    
+}
+
+.abbr-title {
+    position: absolute;
+    width: 290px;
+    height: 68px;
+    left: 68px;
+    top: 44px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 508;
+    font-size: 32px;
+    line-height: 109.34%;
+    /* or 35px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #000000;
+    
+}
+
+.abbr-span {
+  color: #CA2166;    
+}
+
+.addr-subtitle {
+    position: absolute;
+    width: 228px;
+    height: 50px;
+    left: 98px;
+    top: 131px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 136.34%;
+    /* or 25px */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+    
+}
+
+.addr-subtitle2 {
+    position: absolute;
+    width: 238px;
+    height: 50px;
+    left: 98px;
+    top: 151px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 136.34%;
+    /* or 25px */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #000000;
+       
+}
+
+.addr-link {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 170px;
+    top: 200px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 274;
+    font-size: 18px;
+    line-height: 136.34%;
+    /* identical to box height, or 25px */
+    
+    text-align: center;
+    letter-spacing: -0.025em;
+    
+    color: #0066CC;
+    text-decoration: none;
+}
+
+.addr-img {
+    position: absolute;
+    width: 428px;
+    height: 351px;
+    left: 0px;
+    top: 225px;
+    
+}
+
+.watch{
+    position: absolute;
+    width: 428px;
+    height: 498px;
+    left: 0px;
+    top: 1233px; 
+    background: #FBFBFD;   
+}
+
+.watch-logo {
+    position: absolute;
+    left: 152px;
+    top: 37px;
+    
+    
+}
+
+.watch-title {
+    position: absolute;
+    width: 99px;
+    height: 30px;
+    left: 177px;
+    top: 39px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #000000;
+    
+}
+
+.watch-subtitle {
+    position: absolute;
+    width: 70px;
+    height: 14px;
+    left: 185px;
+    top: 73px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.075em;
+    
+    color: #BC1212;
+    
+}
+
+.watch-subtitle2 {
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 113px;
+    top: 91px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    
+    color: #000000;
+    
+}
+
+.watc-link1 {
+    position: absolute;
+    width: 98px;
+    height: 18px;
+    left: 128px;
+    top: 138px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.055em;
+    text-decoration: none;
+    color: #0066CC;
+    
+}
+
+.watc-linh2 {
+    position: absolute;
+    width: 99px;
+    height: 18px;
+    left: 225px;
+    top: 138px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 274;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.055em;
+    text-decoration: none;
+    color: #0066CC;
+    
+}
+
+.watch-img {
+    position: absolute;
+    width: 428px;
+    height: 331px;
+    left: 0px;
+    top: 177px;
+    
+}
+
+.iphone {
+    position: absolute;
+    width: 428px;
+    height: 498px;
+    left: 0px;
+    top: 1734px;    
+    background: #FBFBFD;
+}
+
+.iphone-title {
+    position: absolute;
+    width: 153px;
+    height: 38px;
+    left: 147px;
+    top: 49px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    
+    color: #000000;
+    
+}
+
+.iphone-subtitle {
+    position: absolute;
+    width: 195px;
+    height: 21px;
+    left: 126px;
+    top: 128px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #000000;
+    
+}
+
+.iphone-link1 {
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 128px;
+    top: 157px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 274;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.055em;
+    
+    color: #0066CC;    
+}
+
+.iphone-link2 {
+    position: absolute;
+    width: 99px;
+    height: 18px;
+    left: 225px;
+    top: 157px;
+    text-decoration: none;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 274;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.055em;
+    
+    color: #0066CC;    
+}
+
+.iphone-img {
+    position: absolute;
+    width: 428px;
+    height: 363px;
+    left: 0px;
+    top: 188px;
+    
+    background: url(6.png);   
+}
+
+.iphone-pro {
+    position: absolute;
+    width: 427px;
+    height: 498px;
+    left: 1px;
+    top: 2347px;
+    
+    background: #FBFBFD;    
+}
+
+.pro-title {
+    position: absolute;
+    width: 210px;
+    height: 38px;
+    left: 122px;
+    top: 36px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    
+    color: #000000;    
+}
+
+.pro-subtitle {
+    position: absolute;
+    width: 89px;
+    height: 21px;
+    left: 170px;
+    top: 107px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #000000;    
+}
+
+.pro-link1 {
+    position: absolute;
+    width: 97px;
+    height: 18px;
+    left: 128px;
+    top: 148px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.055em;
+    
+    color: #0066CC;
+    
+}
+
+.pro-ink2 {
+    position: absolute;
+    width: 99px;
+    height: 18px;
+    left: 230px;
+    top: 148px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.055em;
+    
+    color: #0066CC;
+    
+        
+}
+
+.pro-img {
+
+    position: absolute;
+    width: 198px;
+    height: 364px;
+    left: 115px;
+    top: 175px;
+    
+    background: url(7.png);        
+}
+
+.mac-pro {
+    position: absolute;
+    width: 428px;
+    height: 461px;
+    left: 0px;
+    top: 2898px;
+    
+    background: #000000; 
+}
